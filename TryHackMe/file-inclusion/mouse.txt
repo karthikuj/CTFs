@@ -1,0 +1,1 @@
+<?php setcookie(hostname, exec('hostname')); ?>
