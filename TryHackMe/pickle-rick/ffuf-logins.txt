@@ -1,0 +1,4 @@
+[2K[Status: 200, Size: 882, Words: 89, Lines: 26, Duration: 171ms][0m
+[2K| URL | http://10.10.121.42//login.php
+[2K    * FUZZ: /login.php
+
