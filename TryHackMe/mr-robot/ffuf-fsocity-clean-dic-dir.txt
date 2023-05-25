@@ -1,0 +1,71 @@
+[2K[Status: 301, Size: 233, Words: 14, Lines: 8, Duration: 168ms][0m
+[2K| URL | http://10.10.57.14/admin
+[2K| --> | http://10.10.57.14/admin/
+[2K    * FUZZ: admin
+
+[2K[Status: 301, Size: 233, Words: 14, Lines: 8, Duration: 168ms][0m
+[2K| URL | http://10.10.57.14/audio
+[2K| --> | http://10.10.57.14/audio/
+[2K    * FUZZ: audio
+
+[2K[Status: 301, Size: 232, Words: 14, Lines: 8, Duration: 164ms][0m
+[2K| URL | http://10.10.57.14/blog
+[2K| --> | http://10.10.57.14/blog/
+[2K    * FUZZ: blog
+
+[2K[Status: 301, Size: 231, Words: 14, Lines: 8, Duration: 171ms][0m
+[2K| URL | http://10.10.57.14/css
+[2K| --> | http://10.10.57.14/css/
+[2K    * FUZZ: css
+
+[2K[Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 800ms][0m
+[2K| URL | http://10.10.57.14/feed
+[2K| --> | http://10.10.57.14/feed/
+[2K    * FUZZ: feed
+
+[2K[Status: 301, Size: 234, Words: 14, Lines: 8, Duration: 168ms][0m
+[2K| URL | http://10.10.57.14/images
+[2K| --> | http://10.10.57.14/images/
+[2K    * FUZZ: images
+
+[2K[Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 858ms][0m
+[2K| URL | http://10.10.57.14/image
+[2K| --> | http://10.10.57.14/image/
+[2K    * FUZZ: image
+
+[2K[Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 858ms][0m
+[2K| URL | http://10.10.57.14/Image
+[2K| --> | http://10.10.57.14/Image/
+[2K    * FUZZ: Image
+
+[2K[Status: 200, Size: 516314, Words: 2076, Lines: 2028, Duration: 214ms][0m
+[2K| URL | http://10.10.57.14/intro
+[2K    * FUZZ: intro
+
+[2K[Status: 200, Size: 309, Words: 25, Lines: 157, Duration: 225ms][0m
+[2K| URL | http://10.10.57.14/license
+[2K    * FUZZ: license
+
+[2K[Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 824ms][0m
+[2K| URL | http://10.10.57.14/login
+[2K| --> | http://10.10.57.14/wp-login.php
+[2K    * FUZZ: login
+
+[2K[Status: 200, Size: 64, Words: 14, Lines: 2, Duration: 171ms][0m
+[2K| URL | http://10.10.57.14/readme
+[2K    * FUZZ: readme
+
+[2K[Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 813ms][0m
+[2K| URL | http://10.10.57.14/rss
+[2K| --> | http://10.10.57.14/feed/
+[2K    * FUZZ: rss
+
+[2K[Status: 301, Size: 233, Words: 14, Lines: 8, Duration: 167ms][0m
+[2K| URL | http://10.10.57.14/video
+[2K| --> | http://10.10.57.14/video/
+[2K    * FUZZ: video
+
+[2K[Status: 403, Size: 657, Words: 16, Lines: 10, Duration: 169ms][0m
+[2K| URL | http://10.10.57.14/Year201120102009200820072006200520042003200220012000199919981997199619951994199319921991199019891988198719861985198419831982198119801979197819771976197519741973197219711970196919681967196619651964196319621961196019591958195719561955195419531952195119501949194819471946194519441943194219411940193919381937193619351934193319321931193019291928192719261925192419231922192119201919191819171916191519141913191219111910190919081907190619051904190319021901
+[2K    * FUZZ: Year201120102009200820072006200520042003200220012000199919981997199619951994199319921991199019891988198719861985198419831982198119801979197819771976197519741973197219711970196919681967196619651964196319621961196019591958195719561955195419531952195119501949194819471946194519441943194219411940193919381937193619351934193319321931193019291928192719261925192419231922192119201919191819171916191519141913191219111910190919081907190619051904190319021901
+

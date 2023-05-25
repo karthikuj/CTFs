@@ -1,0 +1,96 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-05-25 09:05 IST
+NSE: Loaded 151 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 09:05
+Completed NSE at 09:05, 0.00s elapsed
+Initiating NSE at 09:05
+Completed NSE at 09:05, 0.00s elapsed
+Initiating NSE at 09:05
+Completed NSE at 09:05, 0.00s elapsed
+Initiating Ping Scan at 09:05
+Scanning 10.10.57.14 [4 ports]
+Completed Ping Scan at 09:05, 0.22s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 09:05
+Completed Parallel DNS resolution of 1 host. at 09:05, 0.21s elapsed
+Initiating SYN Stealth Scan at 09:05
+Scanning 10.10.57.14 [65535 ports]
+Discovered open port 80/tcp on 10.10.57.14
+Discovered open port 443/tcp on 10.10.57.14
+SYN Stealth Scan Timing: About 7.12% done; ETC: 09:12 (0:06:44 remaining)
+SYN Stealth Scan Timing: About 21.36% done; ETC: 09:10 (0:03:45 remaining)
+SYN Stealth Scan Timing: About 37.67% done; ETC: 09:09 (0:02:31 remaining)
+SYN Stealth Scan Timing: About 39.71% done; ETC: 09:10 (0:03:04 remaining)
+SYN Stealth Scan Timing: About 48.23% done; ETC: 09:10 (0:02:45 remaining)
+SYN Stealth Scan Timing: About 62.20% done; ETC: 09:10 (0:01:52 remaining)
+SYN Stealth Scan Timing: About 78.16% done; ETC: 09:10 (0:01:00 remaining)
+SYN Stealth Scan Timing: About 85.70% done; ETC: 09:10 (0:00:45 remaining)
+Completed SYN Stealth Scan at 09:10, 301.31s elapsed (65535 total ports)
+Initiating Service scan at 09:10
+Scanning 2 services on 10.10.57.14
+Completed Service scan at 09:10, 13.15s elapsed (2 services on 1 host)
+Initiating OS detection (try #1) against 10.10.57.14
+Retrying OS detection (try #2) against 10.10.57.14
+Initiating Traceroute at 09:10
+Completed Traceroute at 09:11, 3.02s elapsed
+Initiating Parallel DNS resolution of 2 hosts. at 09:11
+Completed Parallel DNS resolution of 2 hosts. at 09:11, 0.26s elapsed
+NSE: Script scanning 10.10.57.14.
+Initiating NSE at 09:11
+Completed NSE at 09:11, 6.64s elapsed
+Initiating NSE at 09:11
+Completed NSE at 09:11, 1.48s elapsed
+Initiating NSE at 09:11
+Completed NSE at 09:11, 0.00s elapsed
+Nmap scan report for 10.10.57.14
+Host is up (0.18s latency).
+Not shown: 65532 filtered ports
+PORT    STATE  SERVICE  VERSION
+22/tcp  closed ssh
+80/tcp  open   http     Apache httpd
+|_http-favicon: Unknown favicon MD5: D41D8CD98F00B204E9800998ECF8427E
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache
+|_http-title: Site doesn't have a title (text/html).
+443/tcp open   ssl/http Apache httpd
+|_http-favicon: Unknown favicon MD5: D41D8CD98F00B204E9800998ECF8427E
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache
+|_http-title: Site doesn't have a title (text/html).
+| ssl-cert: Subject: commonName=www.example.com
+| Issuer: commonName=www.example.com
+| Public Key type: rsa
+| Public Key bits: 1024
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2015-09-16T10:45:03
+| Not valid after:  2025-09-13T10:45:03
+| MD5:   3c16 3b19 87c3 42ad 6634 c1c9 d0aa fb97
+|_SHA-1: ef0c 5fa5 931a 09a5 687c a2c2 80c4 c792 07ce f71b
+Device type: general purpose|specialized|storage-misc|WAP|printer
+Running (JUST GUESSING): Linux 3.X|4.X|2.6.X|2.4.X (91%), Crestron 2-Series (89%), HP embedded (89%), Asus embedded (88%)
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4 cpe:/o:crestron:2_series cpe:/h:hp:p2000_g3 cpe:/o:linux:linux_kernel:2.6.22 cpe:/h:asus:rt-n56u cpe:/o:linux:linux_kernel:3.4 cpe:/o:linux:linux_kernel:2.4
+Aggressive OS guesses: Linux 3.10 - 3.13 (91%), Linux 3.10 - 4.11 (90%), Linux 3.2 - 3.8 (90%), Linux 4.4 (90%), Crestron XPanel control system (89%), Linux 3.12 (89%), Linux 3.13 (89%), Linux 3.13 or 4.2 (89%), Linux 3.16 (89%), Linux 3.2 - 3.5 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 0.005 days (since Thu May 25 09:04:11 2023)
+Network Distance: 5 hops
+TCP Sequence Prediction: Difficulty=252 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+TRACEROUTE (using port 22/tcp)
+HOP RTT       ADDRESS
+1   64.51 ms  10.17.0.1
+2   ... 4
+5   211.48 ms 10.10.57.14
+
+NSE: Script Post-scanning.
+Initiating NSE at 09:11
+Completed NSE at 09:11, 0.00s elapsed
+Initiating NSE at 09:11
+Completed NSE at 09:11, 0.00s elapsed
+Initiating NSE at 09:11
+Completed NSE at 09:11, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 331.58 seconds
+           Raw packets sent: 131350 (5.783MB) | Rcvd: 223 (9.792KB)
