@@ -1,0 +1,123 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-05-25 21:45 IST
+NSE: Loaded 151 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 21:45
+Completed NSE at 21:45, 0.00s elapsed
+Initiating NSE at 21:45
+Completed NSE at 21:45, 0.00s elapsed
+Initiating NSE at 21:45
+Completed NSE at 21:45, 0.00s elapsed
+Initiating Ping Scan at 21:45
+Scanning 10.10.152.179 [4 ports]
+Completed Ping Scan at 21:45, 0.23s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 21:45
+Completed Parallel DNS resolution of 1 host. at 21:45, 0.18s elapsed
+Initiating SYN Stealth Scan at 21:45
+Scanning 10.10.152.179 [65535 ports]
+Discovered open port 22/tcp on 10.10.152.179
+Discovered open port 53/tcp on 10.10.152.179
+Discovered open port 8080/tcp on 10.10.152.179
+Increasing send delay for 10.10.152.179 from 0 to 5 due to 655 out of 2182 dropped probes since last increase.
+SYN Stealth Scan Timing: About 4.20% done; ETC: 21:57 (0:11:47 remaining)
+SYN Stealth Scan Timing: About 5.13% done; ETC: 22:05 (0:18:47 remaining)
+SYN Stealth Scan Timing: About 6.49% done; ETC: 22:09 (0:21:50 remaining)
+SYN Stealth Scan Timing: About 11.24% done; ETC: 22:03 (0:15:56 remaining)
+SYN Stealth Scan Timing: About 12.10% done; ETC: 22:06 (0:18:17 remaining)
+SYN Stealth Scan Timing: About 12.90% done; ETC: 22:09 (0:20:22 remaining)
+Increasing send delay for 10.10.152.179 from 5 to 10 due to 1668 out of 5558 dropped probes since last increase.
+SYN Stealth Scan Timing: About 13.67% done; ETC: 22:11 (0:22:13 remaining)
+SYN Stealth Scan Timing: About 14.45% done; ETC: 22:13 (0:23:47 remaining)
+SYN Stealth Scan Timing: About 16.98% done; ETC: 22:12 (0:22:05 remaining)
+SYN Stealth Scan Timing: About 19.51% done; ETC: 22:11 (0:20:42 remaining)
+SYN Stealth Scan Timing: About 22.51% done; ETC: 22:10 (0:19:20 remaining)
+SYN Stealth Scan Timing: About 25.98% done; ETC: 22:09 (0:18:00 remaining)
+SYN Stealth Scan Timing: About 29.97% done; ETC: 22:09 (0:16:45 remaining)
+SYN Stealth Scan Timing: About 33.88% done; ETC: 22:09 (0:15:33 remaining)
+SYN Stealth Scan Timing: About 38.24% done; ETC: 22:08 (0:14:19 remaining)
+SYN Stealth Scan Timing: About 42.82% done; ETC: 22:08 (0:13:06 remaining)
+SYN Stealth Scan Timing: About 47.91% done; ETC: 22:08 (0:11:55 remaining)
+SYN Stealth Scan Timing: About 52.74% done; ETC: 22:08 (0:10:46 remaining)
+SYN Stealth Scan Timing: About 57.64% done; ETC: 22:08 (0:09:36 remaining)
+SYN Stealth Scan Timing: About 63.03% done; ETC: 22:08 (0:08:26 remaining)
+Discovered open port 8009/tcp on 10.10.152.179
+SYN Stealth Scan Timing: About 67.91% done; ETC: 22:08 (0:07:14 remaining)
+SYN Stealth Scan Timing: About 73.04% done; ETC: 22:08 (0:06:02 remaining)
+SYN Stealth Scan Timing: About 77.86% done; ETC: 22:07 (0:04:55 remaining)
+SYN Stealth Scan Timing: About 82.93% done; ETC: 22:07 (0:03:46 remaining)
+SYN Stealth Scan Timing: About 87.96% done; ETC: 22:07 (0:02:39 remaining)
+SYN Stealth Scan Timing: About 93.03% done; ETC: 22:07 (0:01:32 remaining)
+Completed SYN Stealth Scan at 22:08, 1345.33s elapsed (65535 total ports)
+Initiating Service scan at 22:08
+Scanning 4 services on 10.10.152.179
+Completed Service scan at 22:08, 7.90s elapsed (4 services on 1 host)
+Initiating OS detection (try #1) against 10.10.152.179
+Retrying OS detection (try #2) against 10.10.152.179
+Retrying OS detection (try #3) against 10.10.152.179
+Retrying OS detection (try #4) against 10.10.152.179
+Retrying OS detection (try #5) against 10.10.152.179
+Initiating Traceroute at 22:08
+Completed Traceroute at 22:08, 3.03s elapsed
+Initiating Parallel DNS resolution of 2 hosts. at 22:08
+Completed Parallel DNS resolution of 2 hosts. at 22:08, 0.20s elapsed
+NSE: Script scanning 10.10.152.179.
+Initiating NSE at 22:08
+Completed NSE at 22:08, 5.36s elapsed
+Initiating NSE at 22:08
+Completed NSE at 22:08, 0.77s elapsed
+Initiating NSE at 22:08
+Completed NSE at 22:08, 0.00s elapsed
+Nmap scan report for 10.10.152.179
+Host is up (0.14s latency).
+Not shown: 65531 closed ports
+PORT     STATE SERVICE    VERSION
+22/tcp   open  ssh        OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 f3:c8:9f:0b:6a:c5:fe:95:54:0b:e9:e3:ba:93:db:7c (RSA)
+|   256 dd:1a:09:f5:99:63:a3:43:0d:2d:90:d8:e3:e1:1f:b9 (ECDSA)
+|_  256 48:d1:30:1b:38:6c:c6:53:ea:30:81:80:5d:0c:f1:05 (ED25519)
+53/tcp   open  tcpwrapped
+8009/tcp open  ajp13      Apache Jserv (Protocol v1.3)
+| ajp-methods: 
+|_  Supported methods: GET HEAD POST OPTIONS
+8080/tcp open  http       Apache Tomcat 9.0.30
+|_http-favicon: Apache Tomcat
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Apache Tomcat/9.0.30
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=5/25%OT=22%CT=1%CU=32232%PV=Y%DS=5%DC=T%G=Y%TM=646F8F0
+OS:E%P=x86_64-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=109%TI=Z%CI=I%II=I%TS=8)SEQ
+OS:(SP=106%GCD=1%ISR=109%TI=Z%CI=I%TS=8)SEQ(SP=106%GCD=1%ISR=109%TI=Z%II=I%
+OS:TS=8)OPS(O1=M508ST11NW7%O2=M508ST11NW7%O3=M508NNT11NW7%O4=M508ST11NW7%O5
+OS:=M508ST11NW7%O6=M508ST11)WIN(W1=68DF%W2=68DF%W3=68DF%W4=68DF%W5=68DF%W6=
+OS:68DF)ECN(R=Y%DF=Y%T=40%W=6903%O=M508NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%
+OS:A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0
+OS:%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S
+OS:=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R
+OS:=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N
+OS:%T=40%CD=S)
+
+Uptime guess: 0.015 days (since Thu May 25 21:46:49 2023)
+Network Distance: 5 hops
+TCP Sequence Prediction: Difficulty=262 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 23/tcp)
+HOP RTT       ADDRESS
+1   33.75 ms  10.17.0.1
+2   ... 4
+5   154.65 ms 10.10.152.179
+
+NSE: Script Post-scanning.
+Initiating NSE at 22:08
+Completed NSE at 22:08, 0.00s elapsed
+Initiating NSE at 22:08
+Completed NSE at 22:08, 0.00s elapsed
+Initiating NSE at 22:08
+Completed NSE at 22:08, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1378.88 seconds
+           Raw packets sent: 72413 (3.191MB) | Rcvd: 68229 (2.770MB)
