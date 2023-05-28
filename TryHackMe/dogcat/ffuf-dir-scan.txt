@@ -1,0 +1,14 @@
+[2K[Status: 301, Size: 313, Words: 20, Lines: 10, Duration: 158ms][0m
+[2K| URL | http://10.10.157.229/cats
+[2K| --> | http://10.10.157.229/cats/
+[2K    * FUZZ: cats
+
+[2K[Status: 301, Size: 313, Words: 20, Lines: 10, Duration: 163ms][0m
+[2K| URL | http://10.10.157.229/dogs
+[2K| --> | http://10.10.157.229/dogs/
+[2K    * FUZZ: dogs
+
+[2K[Status: 403, Size: 278, Words: 20, Lines: 10, Duration: 156ms][0m
+[2K| URL | http://10.10.157.229/server-status
+[2K    * FUZZ: server-status
+

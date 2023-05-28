@@ -1,0 +1,38 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-05-27 00:31 IST
+NSE: Loaded 151 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 00:31
+Completed NSE at 00:31, 0.00s elapsed
+Initiating NSE at 00:31
+Completed NSE at 00:31, 0.00s elapsed
+Initiating NSE at 00:31
+Completed NSE at 00:31, 0.00s elapsed
+Initiating Ping Scan at 00:31
+Scanning 10.10.157.229 [4 ports]
+Completed Ping Scan at 00:31, 0.23s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 00:31
+Completed Parallel DNS resolution of 1 host. at 00:31, 0.02s elapsed
+Initiating SYN Stealth Scan at 00:31
+Scanning 10.10.157.229 [65535 ports]
+Discovered open port 80/tcp on 10.10.157.229
+Discovered open port 22/tcp on 10.10.157.229
+Increasing send delay for 10.10.157.229 from 0 to 5 due to 671 out of 2236 dropped probes since last increase.
+SYN Stealth Scan Timing: About 4.50% done; ETC: 00:43 (0:10:58 remaining)
+SYN Stealth Scan Timing: About 5.47% done; ETC: 00:50 (0:17:35 remaining)
+SYN Stealth Scan Timing: About 6.19% done; ETC: 00:56 (0:22:59 remaining)
+SYN Stealth Scan Timing: About 10.69% done; ETC: 00:50 (0:16:51 remaining)
+SYN Stealth Scan Timing: About 11.76% done; ETC: 00:52 (0:18:53 remaining)
+Increasing send delay for 10.10.157.229 from 5 to 10 due to 1435 out of 4783 dropped probes since last increase.
+SYN Stealth Scan Timing: About 12.72% done; ETC: 00:55 (0:20:42 remaining)
+SYN Stealth Scan Timing: About 13.53% done; ETC: 00:57 (0:22:28 remaining)
+Increasing send delay for 10.10.157.229 from 10 to 20 due to max_successful_tryno increase to 4
+Increasing send delay for 10.10.157.229 from 20 to 40 due to 11 out of 29 dropped probes since last increase.
+SYN Stealth Scan Timing: About 15.66% done; ETC: 00:59 (0:23:47 remaining)
+SYN Stealth Scan Timing: About 18.07% done; ETC: 01:02 (0:25:15 remaining)
+SYN Stealth Scan Timing: About 38.86% done; ETC: 01:10 (0:23:42 remaining)
+SYN Stealth Scan Timing: About 45.38% done; ETC: 01:11 (0:21:45 remaining)
+SYN Stealth Scan Timing: About 51.73% done; ETC: 01:12 (0:19:45 remaining)
+Increasing send delay for 10.10.157.229 from 40 to 80 due to max_successful_tryno increase to 5
+Increasing send delay for 10.10.157.229 from 80 to 160 due to max_successful_tryno increase to 6
+SYN Stealth Scan Timing: About 54.26% done; ETC: 01:19 (0:21:48 remaining)
+SYN Stealth Scan Timing: About 61.49% done; ETC: 01:34 (0:24:11 remaining)
