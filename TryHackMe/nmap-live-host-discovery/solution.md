@@ -62,3 +62,17 @@
 
 #### What is the option required to tell Nmap to use ICMP Echo to discover life hosts?
 1. The answer is `-PE`.
+
+### Task 7:
+#### Which TCP ping scan does not require a privileged account?
+1. The answer is `TCP SYN Ping`.
+
+#### Which TCP ping scan requires a privileged account?
+1. The answer is `TCP ACK Ping`.
+
+#### What option do you need to add to Nmap to run a TCP SYN ping scan on the telnet port?
+1. The answer is `-PS23`.
+
+### Task 8:
+#### We want Nmap to issue a reverse DNS lookup for all the possibles hosts on a subnet, hoping to get some insights from the names. What option should we add?
+1. The answer is `-R`.
