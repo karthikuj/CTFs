@@ -1,0 +1,39 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-05-30 08:30 IST
+Initiating Ping Scan at 08:30
+Scanning 10.10.48.67 [4 ports]
+Completed Ping Scan at 08:30, 0.21s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 08:30
+Completed Parallel DNS resolution of 1 host. at 08:30, 0.23s elapsed
+Initiating SYN Stealth Scan at 08:30
+Scanning 10.10.48.67 [65535 ports]
+Discovered open port 80/tcp on 10.10.48.67
+Increasing send delay for 10.10.48.67 from 0 to 5 due to 693 out of 2309 dropped probes since last increase.
+SYN Stealth Scan Timing: About 4.85% done; ETC: 08:40 (0:10:08 remaining)
+SYN Stealth Scan Timing: About 5.92% done; ETC: 08:47 (0:16:09 remaining)
+SYN Stealth Scan Timing: About 6.66% done; ETC: 08:52 (0:21:15 remaining)
+SYN Stealth Scan Timing: About 11.23% done; ETC: 08:48 (0:15:57 remaining)
+SYN Stealth Scan Timing: About 17.34% done; ETC: 08:44 (0:12:00 remaining)
+SYN Stealth Scan Timing: About 22.95% done; ETC: 08:43 (0:10:08 remaining)
+SYN Stealth Scan Timing: About 27.35% done; ETC: 08:43 (0:09:20 remaining)
+SYN Stealth Scan Timing: About 32.76% done; ETC: 08:42 (0:08:15 remaining)
+SYN Stealth Scan Timing: About 37.27% done; ETC: 08:42 (0:07:36 remaining)
+SYN Stealth Scan Timing: About 41.96% done; ETC: 08:42 (0:06:56 remaining)
+SYN Stealth Scan Timing: About 47.06% done; ETC: 08:41 (0:06:12 remaining)
+SYN Stealth Scan Timing: About 51.87% done; ETC: 08:41 (0:05:35 remaining)
+SYN Stealth Scan Timing: About 57.59% done; ETC: 08:41 (0:04:48 remaining)
+SYN Stealth Scan Timing: About 62.57% done; ETC: 08:41 (0:04:12 remaining)
+SYN Stealth Scan Timing: About 68.13% done; ETC: 08:41 (0:03:35 remaining)
+SYN Stealth Scan Timing: About 73.64% done; ETC: 08:41 (0:02:55 remaining)
+SYN Stealth Scan Timing: About 79.40% done; ETC: 08:41 (0:02:15 remaining)
+SYN Stealth Scan Timing: About 85.25% done; ETC: 08:40 (0:01:35 remaining)
+SYN Stealth Scan Timing: About 90.52% done; ETC: 08:40 (0:01:01 remaining)
+Completed SYN Stealth Scan at 08:40, 643.10s elapsed (65535 total ports)
+Nmap scan report for 10.10.48.67
+Host is up (0.16s latency).
+Not shown: 65534 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 643.73 seconds
+           Raw packets sent: 68636 (3.020MB) | Rcvd: 220420 (40.185MB)

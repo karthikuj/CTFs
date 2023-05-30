@@ -1,0 +1,5 @@
+[2K[Status: 301, Size: 194, Words: 7, Lines: 8, Duration: 155ms][0m
+[2K| URL | http://10.10.48.67/css
+[2K| --> | http://10.10.48.67/css/
+[2K    * FUZZ: css
+
