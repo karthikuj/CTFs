@@ -1,0 +1,73 @@
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10, Duration: 169ms][0m
+[2K| URL | http://10.10.196.39/nagiosxi/.htpasswd
+[2K    * FUZZ: .htpasswd
+
+[2K[Status: 403, Size: 277, Words: 20, Lines: 10, Duration: 171ms][0m
+[2K| URL | http://10.10.196.39/nagiosxi/.htaccess
+[2K    * FUZZ: .htaccess
+
+[2K[Status: 301, Size: 321, Words: 20, Lines: 10, Duration: 177ms][0m
+[2K| URL | http://10.10.196.39/nagiosxi/about
+[2K| --> | http://10.10.196.39/nagiosxi/about/
+[2K    * FUZZ: about
+
+[2K[Status: 301, Size: 323, Words: 20, Lines: 10, Duration: 175ms][0m
+[2K| URL | http://10.10.196.39/nagiosxi/account
+[2K| --> | http://10.10.196.39/nagiosxi/account/
+[2K    * FUZZ: account
+
+[2K[Status: 301, Size: 321, Words: 20, Lines: 10, Duration: 218ms][0m
+[2K| URL | http://10.10.196.39/nagiosxi/admin
+[2K| --> | http://10.10.196.39/nagiosxi/admin/
+[2K    * FUZZ: admin
+
+[2K[Status: 301, Size: 319, Words: 20, Lines: 10, Duration: 174ms][0m
+[2K| URL | http://10.10.196.39/nagiosxi/api
+[2K| --> | http://10.10.196.39/nagiosxi/api/
+[2K    * FUZZ: api
+
+[2K[Status: 301, Size: 323, Words: 20, Lines: 10, Duration: 178ms][0m
+[2K| URL | http://10.10.196.39/nagiosxi/backend
+[2K| --> | http://10.10.196.39/nagiosxi/backend/
+[2K    * FUZZ: backend
+
+[2K[Status: 301, Size: 322, Words: 20, Lines: 10, Duration: 167ms][0m
+[2K| URL | http://10.10.196.39/nagiosxi/config
+[2K| --> | http://10.10.196.39/nagiosxi/config/
+[2K    * FUZZ: config
+
+[2K[Status: 301, Size: 318, Words: 20, Lines: 10, Duration: 165ms][0m
+[2K| URL | http://10.10.196.39/nagiosxi/db
+[2K| --> | http://10.10.196.39/nagiosxi/db/
+[2K    * FUZZ: db
+
+[2K[Status: 301, Size: 320, Words: 20, Lines: 10, Duration: 158ms][0m
+[2K| URL | http://10.10.196.39/nagiosxi/help
+[2K| --> | http://10.10.196.39/nagiosxi/help/
+[2K    * FUZZ: help
+
+[2K[Status: 301, Size: 322, Words: 20, Lines: 10, Duration: 162ms][0m
+[2K| URL | http://10.10.196.39/nagiosxi/images
+[2K| --> | http://10.10.196.39/nagiosxi/images/
+[2K    * FUZZ: images
+
+[2K[Status: 301, Size: 324, Words: 20, Lines: 10, Duration: 175ms][0m
+[2K| URL | http://10.10.196.39/nagiosxi/includes
+[2K| --> | http://10.10.196.39/nagiosxi/includes/
+[2K    * FUZZ: includes
+
+[2K[Status: 301, Size: 323, Words: 20, Lines: 10, Duration: 177ms][0m
+[2K| URL | http://10.10.196.39/nagiosxi/reports
+[2K| --> | http://10.10.196.39/nagiosxi/reports/
+[2K    * FUZZ: reports
+
+[2K[Status: 301, Size: 321, Words: 20, Lines: 10, Duration: 163ms][0m
+[2K| URL | http://10.10.196.39/nagiosxi/tools
+[2K| --> | http://10.10.196.39/nagiosxi/tools/
+[2K    * FUZZ: tools
+
+[2K[Status: 301, Size: 321, Words: 20, Lines: 10, Duration: 155ms][0m
+[2K| URL | http://10.10.196.39/nagiosxi/views
+[2K| --> | http://10.10.196.39/nagiosxi/views/
+[2K    * FUZZ: views
+
