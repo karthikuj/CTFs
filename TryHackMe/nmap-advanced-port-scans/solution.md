@@ -56,3 +56,13 @@ The answer is `1`.
 1. The `-f` flag will divide the data into 8 bytes or less, and adding another `-f` flag will divide it into `16` bytes or less.
 2. So, `-ff` will divide `64` bytes of data into `64 / 16 = 4` fragments.
 3. The answer is `4`.
+
+### Task 7:
+#### You discovered a rarely-used network printer with the IP address 10.10.5.5, and you decide to use it as a zombie in your idle scan. What argument should you add to your Nmap command?
+1. The answer is `-sI 10.10.5.5`.
+
+### Task 8:
+#### Launch the AttackBox if you haven't done so already. After you make sure that you have terminated the VM from Task 4, start the VM for this task. Wait for it to load completely, then open the terminal on the AttackBox and use Nmap with nmap -sS -F --reason MACHINE_IP to scan the VM. What is the reason provided for the stated port(s) being open?
+1. Run the command `sudo nmap -sS -F --reason 10.10.58.107`.
+2. In the `Reason` column we can see that it received a `syn-ack` packet back.
+3. The answer is `syn-ack`.
